@@ -423,7 +423,7 @@ static int adb_open(struct inode *ip, struct file *fp)
 	static DEFINE_RATELIMIT_STATE(rl, 10*HZ, 1);
 
 	if (__ratelimit(&rl))
-		pr_info("adb_open\n");
+		pr_debug("adb_open\n");
 	if (!_adb_dev)
 		return -ENODEV;
 
