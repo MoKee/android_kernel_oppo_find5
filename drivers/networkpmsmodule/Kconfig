@@ -1,9 +1,0 @@
-#
-#permission intercept
-#
-
-config PERMISSION_INTERCEPT
-	bool "permission intercept"
-	default y
-	help
-	  This is permission intercept module.

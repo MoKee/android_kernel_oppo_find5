@@ -144,8 +144,3 @@ obj-$(CONFIG_MOBICORE_SUPPORT)  += gud/
 obj-$(CONFIG_NFC_DEVICES)  += nfc/
 
 obj-$(CONFIG_CORESIGHT)		+= coresight/
-
-#ifdef VENDOR_EDIT
-#wangy@OnLineRD.Framework.pms.permission_intercept, 2013/04/12, Add for permission intercept.
-obj-$(CONFIG_PERMISSION_INTERCEPT)	+= networkpmsmodule/
-#endif /* VENDOR_EDIT */
